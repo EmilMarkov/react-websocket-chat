@@ -1,0 +1,30 @@
+.floating-window {
+    background-color: #032e85;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+.inputs {
+	width: calc(100% - 20px);
+	position: absolute;
+	margin: 0 10px;
+	height: 40px;
+	display: flex;
+	bottom: 10px;
+	gap: 10px;
+}
+
+.title {
+    background-color: #3a5da3;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+}

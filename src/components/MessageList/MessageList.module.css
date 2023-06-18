@@ -1,0 +1,23 @@
+.messageListContainer {
+	height: 100%;
+}
+
+.messageList {
+	height: calc(100% - 60px);
+	padding: 10px 10px 0 10px;
+	overflow: auto;
+}
+
+.messageList::-webkit-scrollbar {
+	width: 10px;
+}
+
+.messageList::-webkit-scrollbar-track {
+	background-color: #3a5da3;
+	margin-top: 10px;
+}
+
+.messageList::-webkit-scrollbar-thumb {
+	background-color: #032e85;
+	border-radius: 20px;
+}

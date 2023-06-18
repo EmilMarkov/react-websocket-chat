@@ -1,0 +1,49 @@
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 5px;
+	background-color: #3a5da3;
+	padding: 10px;
+	border-radius: 8px;
+	gap: 10px;
+}
+
+.chatList {
+	height: calc(100% - 50px);
+	list-style: none;
+	background-color: #032e85;
+	min-width: 250px;
+	border-radius: 4px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.chatList li {
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.chatList li:hover {
+	background-color: rgb(3, 38, 104);
+	cursor: pointer;
+	color: rgb(190, 190, 190);
+}
+
+.chatList li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.itemContainer {
+	display: flex;
+}

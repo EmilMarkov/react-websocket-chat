@@ -1,0 +1,42 @@
+.messageContainer {
+	margin-bottom: 10px;
+}
+
+.textRightAlign {
+	text-align: right;
+}
+
+.textLeftAlign {
+	text-align: left;
+}
+
+.infoRightAlign {
+	justify-content: right;
+}
+
+.infoLeftAlign {
+	justify-content: left;
+}
+
+.messageText {
+	background-color: #032e85;
+	border-radius: 8px;
+	padding: 10px;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
+.messageText p {
+	margin: 0;
+}
+
+.messageInfo {
+	display: flex;
+	gap: 5px;
+	font-size: 12px;
+	color: #999999;
+}
+
+.messageInfo span {
+	display: inline-flex;
+}
